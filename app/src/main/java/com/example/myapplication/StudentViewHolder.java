@@ -16,6 +16,8 @@ public class StudentViewHolder extends RecyclerView.ViewHolder {
     public StudentViewHolder(@NonNull View itemView) {
         super(itemView);
 
+        System.out.println("test");
+
         name=itemView.findViewById(R.id.Name);
         id=itemView.findViewById(R.id.id);
         password=itemView.findViewById(R.id.password);
